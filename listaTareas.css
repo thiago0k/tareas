@@ -1,0 +1,98 @@
+
+.contenedor {
+    margin:50px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px gainsboro;
+    width: 250px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  
+}
+
+h1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+.item {
+    position: relative;
+    bottom: 15px;
+    border: solid 1px gainsboro;
+    border-radius: 5px;
+    width: 207px;
+    list-style-type: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: 0.4s ease-in-out;
+    margin-right: 40px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item:hover{
+    background-color: rgba(150, 150, 150, 0.5);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-eliminar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    margin: 5px;
+}
+
+.checkbox {
+  position: relative;
+  top: 20px;
+  left: 80px;
+  
+}
+
+.span-texto {
+ position: relative;
+ left: 8px;
+ bottom: 20px;
+ font-size: 20px;
+}
+
+#btn {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   border: none;
+   background-color: cadetblue;
+   color: blue;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   height: 25px;
+   color: white;
+   
+}
+
+.contenedor input {
+    margin: 10px;
+    width: 200px;
+}
+
+.tachado{
+    text-decoration: line-through;
+   color: yellow;
+}
+
+
+.temporizado {
+    font-size: 8px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    margin: 3px;
+    color: #666;
+    text-shadow: 1px 1px 0px #fff;
+}  
+
